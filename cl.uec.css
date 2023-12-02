@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: rgb(77, 53, 31);
+}
+a {
+  text-decoration: none;
+}
+.page-header {
+  color: rgb(248, 240, 233);
+  font-family: 'Hepta Slab', serif;
+}
+.home-nav a {
+  color: rgb(248, 240, 233);
+
+}
+.home-nav a:hover {
+  color: rgb(72, 95, 194);
+
+}
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: rgb(248, 240, 233);
+}
+.main-nav a:hover {
+  color: rgb(72, 95, 194);
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+#menu {
+  background-image: url(https://dl.dropboxusercontent.com/s/119vlb01hxwszep/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 0%;
+}
+.page-content {
+  padding-top: 0%;
+  position: relative;
+}
+.page-title {
+  font-family: "游明朝体","YuMincho";
+  font-weight: lighter;
+  font-size: 4.5rem;
+  
+}
+.collegelink {
+  color: rgb(185, 216, 150);
+}
+.page-content {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: whitesmoke;
+  
+}
+  
+.page-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 0;
+}
+
+.wrapper {
+  max-width: 1125px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+footer {
+  background: #432;
+  text-align: right;
+  padding: 26px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+#location {
+  padding: 4% 0;
+}
+#location .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+}
+.location-info p {
+  padding: 12px 10px;
+}
+.location-map {
+  width: 74%;
+}
+iframe {
+  width: 100%;
+}
+h3 {
+  border-bottom: 2.2px #BAD3FF solid;
+}
+
+#sns {
+  background: #f8f8f0;
+  padding: 4% 0;
+}
+#sns .wrapper {
+  display: flex;
+}
+#sns .sub-title {
+  margin-bottom: 30px;
+  border-bottom: 2.2px #6a93da solid;
+}
+.sns-box {
+  width: 30%;
+  padding-right: 90px;
+}

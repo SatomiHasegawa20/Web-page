@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cl.home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Top</title>
+</head>
+<body>
+  <div id="home" class="big-bg">
+    <header class="page-header wrapper">
+        <h1><a><img class="logo" ></a></h1>
+        
+    </header>
+
+
+    <ul class="button-list wrapper">
+      <h2 class="page-title">Life at UEC</h2>
+        <p>.</p>
+      <ul class="dropdwn">
+        <li class="button">START
+          <!-- <a href="#" class="bottom">START</a> -->
+          <ul class="dropdwn_menu">
+              <li><a href="cl.food.html">FOOD</a></li>
+              <li><a href="cl.around.html">SPOT</a></li>
+              <li><a href="cl.access.html">ACCESS</a></li>
+              <li><a href="cl.uec.html">UEC</a></li>
+              
+          </ul>
+        </li>
+      </ul>
+  </ul>
+
+
+  
+
+
+</div>
+
+<footer>
+  <div class="wrapper">
+    <p>2010496 中村はるか</p>
+    <p>2010544 長谷川聡美</p>
+    <p>2010748 渡邊愛恵</p>
+  </div>
+  </footer>
+<script type="text/javascript">
+  $(document).ready(function(){
+   $('.dropdwn li').hover(function(){
+     $("ul:not(:animated)", this).slideDown();
+ }, function(){
+     $("ul.dropdwn_menu",this).slideUp();
+ });
+ });
+</script>
+ 
+</body>
+</html>
